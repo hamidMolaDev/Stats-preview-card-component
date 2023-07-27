@@ -10,9 +10,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -32,71 +30,68 @@ You can find the screenshot of my solution that i named @hamidMolaDev in screens
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Sampla-Project-Solution URL: [@hamidMolaDev](https://hamidmoladev.github.io/Stats-preview-card-component/)
+- Github-Live Site URL: [@hamidMolaDev](https://github.com/hamidMolaDev)
 
 ## My process
+- Creating the fundamental html elements.
+- I finished my html.
+- I start to style my html with general property like font-size and font-family.
+- I really waste my time in css because of colorize the image.
+- I centered the content with grid.
 
-### Built with
+### Built with 
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
 ```html
-<h1>Some HTML code I'm proud of</h1>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Outfit:wght@700&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Outfit:wght@700&display=swap" rel="stylesheet">
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+@media (max-width: 1080px) {
+  #text {
+    padding: 1rem 0 2rem 2rem;
+  }
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  #main-p {
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+  #counts {
+    column-gap: 4rem;
+    margin-top: 2.5rem;
+  }
+  .numbers {
+    font-size: 1.1rem;
+  }
+  .quantity {
+    font-size: 0.5rem;
+    letter-spacing: 0.03rem;
+    margin-top: 0.3rem;
+  }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I finished my learning HTML,CSS,etc. I'm thinking about what freamwork should i learn after.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- github - [@hamidMolaDev](https://github.com/hamidMolaDev)
+- Frontend Mentor - [@hamidMolaDev](https://www.frontendmentor.io/profile/hamidMolaDev)
+- Twitter - [@hamidmola7296](https://twitter.com/hamidmola7296)
