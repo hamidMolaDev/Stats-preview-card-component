@@ -159,27 +159,20 @@ h1 span {
   font-weight: 700;
 }
 
+
 figure {
+  background-color: rgb(171, 92, 219);
   position: relative; 
   height: auto;
   margin: 0;
   width: 45%;
-
-}
-
-#img-div {
-  height: 100%;
-  width: 100%;
-  background-color: var(--violet);
-  position: absolute;
-  top: 0;
-  right: 0;
   border-radius: 0% 10px 10px 0%;
-  z-index: 1;
 }
+
 
 img {
-  filter: opacity(45%);
+  opacity: 0.75;
+  mix-blend-mode: multiply;
   position: absolute;
   top: 0; 
   right: 0;
