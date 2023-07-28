@@ -12,7 +12,7 @@
 }
 
 body {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-size: 10px;
   width: 100vw;
   margin: 0;
@@ -147,7 +147,7 @@ h1 span {
 }
 
 .quantity {
-  font-family: 'Lexend Deca';
+  font-family: 'Lexend Deca', sans-serif;
   display: block;
   color: var(--Slightly-transparent-white);
   text-transform: uppercase;
